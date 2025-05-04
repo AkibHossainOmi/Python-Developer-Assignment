@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+.env/
+
+# Python bytecode files
+*.pyc
+*.pyo
+
+# Django migration files
+*/migrations/*
+
+# SQLite database
+db.sqlite3
+
+# Secret and sensitive data files
+.env
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+
+# Static and media files
+/static/
+/media/
+
+# Log files
+*.log
+
+# Django settings folder (if any)
+config/settings/
